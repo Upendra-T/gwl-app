@@ -22,7 +22,7 @@ const App = () => {
     ],
   };
 
-  return <Flexi onSubmit={onFlexiSubmit} config={flexiConfig} />;
+  return <Flexi onSubmit={onFlexiSubmit} config={flexiConfig} />;//new
 };
 
 export default App;
