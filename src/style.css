@@ -1,0 +1,88 @@
+/* FlexiStyles.css */
+h1{
+    color:rgb(4, 51, 16);
+}
+h6{
+    color:rgb(184, 39, 39);
+}
+p{
+    font-weight: bold;
+}
+.form-input.error {
+    border: 1px solid red; /* Add a red border for emphasis */
+  }
+  
+  .error-message {
+    color: red;
+    margin-left: 5px; /* Adjust as needed for spacing */
+  }
+  
+.flexi-container {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #5ece5e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-item {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-data {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  /* Additional styles for form data display */
+  .form-data h2 {
+    color: #033a1c;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-data pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+  
